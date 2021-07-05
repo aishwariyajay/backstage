@@ -144,6 +144,12 @@ export function createFetchPlainAction(options: {
 }): TemplateAction<any>;
 
 // @public (undocumented)
+export function createFetchTemplateAction(options: {
+    reader: UrlReader;
+    integrations: ScmIntegrations;
+}): TemplateAction<any>;
+
+// @public (undocumented)
 export function createLegacyActions(options: Options): TemplateAction<any>[];
 
 // @public (undocumented)
